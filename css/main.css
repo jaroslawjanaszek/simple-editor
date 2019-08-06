@@ -355,6 +355,16 @@ body {
   min-width: 200px;
   font-weight: 600px;
   letter-spacing: 0.5px; }
+  .form__button--load {
+    background: #fff;
+    -webkit-transition: background 0.3s ease-in-out;
+    -o-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out; }
+    .form__button--load:hover {
+      background: #d3cdcd;
+      -webkit-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+              transform: scale(1.1); }
   .form__button--save {
     background: #121232;
     color: #fff; }
